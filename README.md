@@ -3,12 +3,12 @@
 Projeto em Node.js, React.js e React Native
 
 ## Arquivo server.ts
-Web app só roda com 
+Web app precisa de
 ```js
 await fastify.listen({ port: 3333 })
 ```
 
-mobile app só roda com 
+mobile app precisa de
 ```js
 
 await fastify.listen({ port: 3333, host: '0.0.0.0' })
