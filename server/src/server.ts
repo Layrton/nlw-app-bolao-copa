@@ -14,7 +14,7 @@ async function bootstrap() {
   })
 
   await fastify.register(cors, {
-    origin: "*",
+    origin: true,
   })
 
 
